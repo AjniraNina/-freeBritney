@@ -1,0 +1,85 @@
+:root {
+    --mainColor: #fdd700; 
+  }
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ p::selection {
+    background: #be70b4;
+  }
+  
+  h1::selection {
+    background: #be70b4;
+  }
+    
+  h2::selection {
+    background: #be70b4;
+  }
+  a::selection {
+    background: #be70b4;
+  }
+
+
+main {
+    margin: 0 auto;
+  }
+
+.intro-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.intro-box h1{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 6rem;
+}
+footer{
+    margin-top: auto;
+}
+footer p{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+#gradient-cheer {
+	background: linear-gradient(-45deg, #ee7752, #c5f9d7,#f7d486,#f27a7d);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% { 
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.intro-box p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
